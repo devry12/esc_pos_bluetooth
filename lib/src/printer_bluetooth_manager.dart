@@ -143,7 +143,7 @@ class PrinterBluetoothManager {
   }
 
   Future<PosPrintResult> printTicket(
-    Ticket ticket, {
+    Generator ticket, {
     int chunkSizeBytes = 20,
     int queueSleepTimeMs = 20,
   }) async {
